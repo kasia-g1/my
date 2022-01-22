@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>formgit1</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>FORM - przykladowe cwiczenia z gitem</h1>
+		<div class="form1">
+			<form>
+				<div>
+					<label class="description" id="title1" for="field1"
+						>Podaj imię:</label
+					>
+					<input type="text" id="field1" name="field1" />
+				</div>
+				<br />
+				<div>
+					<label class="description" id="title2" for="field2"
+						>Podaj haslo:</label
+					>
+					<input
+						type="password"
+						id="field2"
+						name="field2"
+						title="Minimum 8 znaków, jedna cyfra i jeden znak specjalny"
+					/>
+				</div>
+				<br />
+				<div>
+					<label class="description" id="title3" for="field3"
+						>Podaj email:</label
+					>
+					<input type="email" id="field3" name="field3" autofocus required />
+				</div>
+				<br />
+				<div>
+					<label class="description" id="title4" for="field4"
+						>Ile lat doświadczenia:</label
+					>
+					<input type="number" id="field4" name="field4" value="5" />
+				</div>
+				<br />
+				<div class="textarea">
+					<label class="description" id="title5" for="field5"
+						>Opisz sprawę:</label
+					>
+					<div>
+						<textarea
+							name="field4"
+							id="field4"
+							cols="10"
+							rows="5"
+							spellcheck="true"
+						></textarea>
+					</div>
+				</div>
+				<div class="search"></div>">
+					<label class="description" id="title5" for="field5"
+						>Opisz sprawę:</label
+					>
+					<div>
+						<textarea
+							name="field4"
+							id="field4"
+							cols="10"
+							rows="5"
+							spellcheck="true"
+						></textarea>
+					</div>
+				</div>
+
+				<div>
+					<input type="submit" id="sendForm" name="sandForm" value="Wyslij" />
+				</div>
+        <div>
+
+          <label for="gsearch">Search Google:</label>
+    <input type="search" id="gsearch" name="gsearch">
+        </div>
+
+			</form>
+		</div>
+	</body>
+</html>

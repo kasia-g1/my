@@ -1,0 +1,23 @@
+h1 {
+  color: red;
+  font-size: 2rem;
+}
+
+input {
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+label {
+  color: green;
+}
+
+input[type="submit"]:hover {
+
+    background-color: lightgreen;
+}
+
+input[type="submit"] {
+
+    background-color: green;
+}
